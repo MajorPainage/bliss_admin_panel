@@ -228,7 +228,7 @@ function item_preview(obj){
        $('#status_item').html('Forbidden').css('color','red');
        if(vvs == 'forbidden_disabled') {
             $('#button_label').remove();
-             $('#status_item').html('Unknow. Not found in mysql table adm_objects').css('color','orange');
+             $('#status_item').html('Unknown. Not found in mysql table adm_objects').css('color','orange');
        }      
    }
    else {

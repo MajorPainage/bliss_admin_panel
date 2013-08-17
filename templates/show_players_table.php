@@ -34,9 +34,9 @@
     
     if(isset($_SESSION['unknow_item'])) foreach($_SESSION['unknow_item'] as $pl_name => $rd_msg){
          
-        echo '<hr>Player <font color=orange>'.$pl_name.'</font> have Unknow items <br>';
+        echo '<hr>Player <font color=orange>'.$pl_name.'</font> have Unknown items <br>';
         foreach ($rd_msg as $item): ?>
-           <div class="preview_gear_slot unknow" style='display:table-cell' > 
+           <div class="preview_gear_slot unknown" style='display:table-cell' > 
              <img  vss="forbidden_disabled" onclick="item_preview(this)" src="images/thumbs/<?php echo $item?>.png" title="<?php echo $item?>" alt="<?php echo $item?>"/>
            </div>
             

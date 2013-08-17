@@ -31,10 +31,10 @@
     
     if(isset($_SESSION['unknow_item'])) foreach($_SESSION['unknow_item'] as $pl_name => $rd_msg){
          
-        echo '<hr>Player <font color=yellow>'.$pl_name.'</font> have Unknow items <br>';
+        echo '<hr>Player <font color=yellow>'.$pl_name.'</font> have Unknown items <br>';
         foreach ($rd_msg as $item): ?>
-           <div class="preview_gear_slot unknow" style='display:table-cell' > 
-             <p title="Item <?php echo $item?> not found in table adm_objects"> Unknow item  <?php echo $item?> </p>
+           <div class="preview_gear_slot unknown" style='display:table-cell' > 
+             <p title="Item <?php echo $item?> not found in table adm_objects"> Unknown item  <?php echo $item?> </p>
            </div>
             
         <?php endforeach;  

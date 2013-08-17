@@ -151,7 +151,7 @@
 							$numlines = 0;
 							for ($j=0; $j< $weapons; $j++){
 								if ($jk > 3){ $jk = 0;$jl++;}
-								echo '<div title='.$backpackitem[$j]['class_name'].' class="gear_slot  '.($backpackitem[$j]['forbidden_item']?'forbidden':'').' '.($backpackitem[$j]['unknow_item']?'unknow':'').'" style="margin-left:'.($jx+(86*$jk)).'px;margin-top:'.($jy+(86*$jl)).'px;width:84px;height:84px;">'.$bpweapons[$j]['image'].'</div>';
+								echo '<div title='.$backpackitem[$j]['class_name'].' class="gear_slot  '.($backpackitem[$j]['forbidden_item']?'forbidden':'').' '.($backpackitem[$j]['unknow_item']?'unknown':'').'" style="margin-left:'.($jx+(86*$jk)).'px;margin-top:'.($jy+(86*$jl)).'px;width:84px;height:84px;">'.$bpweapons[$j]['image'].'</div>';
 								//$magazines = $magazines - $bpweapons[$j]['slots'];	
 								$freeweaps = $freeweaps - 1;
 								$jk++;
@@ -174,7 +174,7 @@
 							for ($j=0; $j<$magazines; $j++){
 								if ($jk > 6){ $jk = 0;$jl++;}
 								if ($j<count($backpackitem)){
-									echo '<div title='.$backpackitem[$j]['class_name'].' class="gear_slot '.($backpackitem[$j]['forbidden_item']?'forbidden':'').' '.($backpackitem[$j]['unknow_item']?'unknow':'').'" style="margin-left:'.($jx+(49*$jk)).'px;margin-top:'.($jy+(49*$jl)).'px;width:47px;height:47px;">'.$backpackitem[$j]['image'].'</div>';
+									echo '<div title='.$backpackitem[$j]['class_name'].' class="gear_slot '.($backpackitem[$j]['forbidden_item']?'forbidden':'').' '.($backpackitem[$j]['unknow_item']?'unknown':'').'" style="margin-left:'.($jx+(49*$jk)).'px;margin-top:'.($jy+(49*$jl)).'px;width:47px;height:47px;">'.$backpackitem[$j]['image'].'</div>';
 									//$jk = $jk - 1 + $backpackitem[$j]['slots'];
 									//$backpackslots = $backpackslots + $backpackitem[$j]['slots'];
 									$freeslots = $freeslots - 1;
@@ -219,7 +219,7 @@
 	</table>
 
         <?php if(is_array($unkonw_item_name) && count($unkonw_item_name) > 0):?>
-        <font color="red" size="5"> Warning found unknow items wich not found in mysql table adm_objects: </font>
+        <font color="red" size="5"> Warning found unknown items which are not found in mysql table adm_objects: </font>
         <font color="orange" size="4">
        
         <?php 
