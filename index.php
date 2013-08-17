@@ -46,7 +46,7 @@ require_once 'actions/functions.php';
     <h2><a href="#" title=" <?=$lng_site_description[$ses_lng]?>  SkynetDev"><img width="80" src="images/logo.png"></a>
          <div> 
              <?php echo $lng_site_description2[$ses_lng]?><font style="font-size: 8px">(tested on 
-                 <a target="_blank" title="Bliss Dayz private server" class="links" href="https://github.com/ayan4m1/DayZ-Private">ayan4m1</a>)
+                 <a target="_blank" title="Reality Dayz private server" class="links" href="https://github.com/ayan4m1/DayZ-Private">ayan4m1</a>)
              </font>
          </div>
     </h2>
@@ -89,7 +89,7 @@ require_once 'actions/functions.php';
     <!-- end page -->
 </div>
 <div id="footer">
-    <div id="footer_text">&copy;2012 All Rights Reserved. Free Admin Panel for Bliss Dayz Private Server. Alfa version 1.0 Created by <a target="_blank" href="https://github.com/skynetdev/bliss_admin_panel"><font color="#D56E22">SkyNetDev</font></a> <?php if(isset($_SESSION['language']) && $_SESSION['language'] == 'ru'):?> <a target="_blank" href="https://www.youtube.com/user/bfpayer"><img width="40px" src="images/main/youtube_winter.png"></a> <?php endif;?></div> 
+    <div id="footer_text">&copy;2012 All Rights Reserved. Free Admin Panel for Reality Dayz Private Server. Alfa version 1.0a Created by <a target="_blank" href="https://github.com/MajorPainage/reality_admin_panel"><font color="#D56E22">SkyNetDev</font></a> <?php if(isset($_SESSION['language']) && $_SESSION['language'] == 'ru'):?> <a target="_blank" href="https://www.youtube.com/user/bfpayer"><img width="40px" src="images/main/youtube_winter.png"></a> <?php endif;?></div> 
 
     
         

@@ -1,25 +1,29 @@
+NOTE:  Originally built by Skynetdev.  Updated and adjusted slightly for Reality based servers.
+
+
+
 Donate
 ==========
 If you don't want to let die this project please donate
 -----------------------
-https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YBF7E7YXRYYQ8
+
 
 Reality Admin Panel coming soon
 ==================
 
 
-Bliss Admin Panel
+Reality Admin Panel
 =================
 
-Web Admin Panel on PHP for Bliss Dayz Private Server by skynetdev
+Web Admin Panel on PHP for Reality Dayz Private Server by skynetdev/MajorPainage
 
-Sorry guys but my english is not perfect, therefore I will write here on russian language, but
-anyway admin panel support english language of course.
+Sorry guys but my English is not perfect, therefore I will write here on russian language, but
+anyway admin panel support English language of course.
 
-If you will create any issue in english language,
-I will try answer in english.
+If you will create any issue in English language,
+I will try answer in English.
 
-Веб Админ Панель на PHP для Bliss сервера игры Dayz от skynetdev
+Веб Админ Панель на PHP для Reality сервера игры Dayz от skynetdev
 =================
 Видео инструкция и обзор админ панели 
 http://youtu.be/AVBu4vuq2EA
@@ -40,19 +44,19 @@ Mysql Server 5.5
 
 при разрешении экрана/tested on resolution: 1920x1800
 
-Сервер Bliss (тестировалось на версии Bliss 4.2)/Bliss server   (tested on bliss version 4.2)
+Сервер Reality (тестировалось на версии Reality 4.2)/Reality server   (tested on Reality version 4.2)
 
-Главный репозиторий сервера Bliss
+Главный репозиторий сервера Reality
 
-Main repository of Bliss server
+Main repository of Reality server
 
 https://github.com/ayan4m1/DayZ-Private
 
-( Тестировалось на этой версии репозитория Bliss сервера
+( Тестировалось на этой версии репозитория Reality сервера
 
- Tested on this version of repository bliss 4.2 : http://rghost.ru/42776001 )
+ Tested on this version of repository Reality 4.2 : http://rghost.ru/42776001 )
 
-Path to game where installed bliss server must be without spaces
+Path to game where installed Reality server must be without spaces
 
 Путь до игры где находится сервер должен быть без пробелов
 
@@ -150,12 +154,3 @@ R249402690706 - рублевый кошелек в системе webmoney
 Сорри кого не запомнил.
 кто-то еще присал на яндекс 60 руб тоже не запомнил никнэйма на ютубе
 в след раз обещаю запоминать 
-
-
-Контакты:
-================
-Мой канал на ютубе с полезными видео для админов серверов Dayz
-
-https://www.youtube.com/user/bfpayer
-
-email: skynetdev3[]gmail.com
